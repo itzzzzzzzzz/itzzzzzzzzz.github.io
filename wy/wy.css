@@ -1,0 +1,47 @@
+/* a presentation, not a website: no purchase section, no questions, no footer, no buttons, no menu, no pointer */
+div.subscription[data-commerce],
+section.faq-section[data-section="faq"],
+footer[data-section="footer"],
+.site-header .header-toolbar,
+.site-header dialog,
+.booking-cta-pair,
+.bento-action,
+[aria-label="The presenters"] { display: none !important; }
+html, body, * { cursor: none !important; }
+
+/* the bison with the state seal as the mark at the top left (the site's mask: one colour, inverted against what lies behind) */
+.header-logo {
+  -webkit-mask: url("./bison-mask.png") center / contain no-repeat !important;
+  mask: url("./bison-mask.png") center / contain no-repeat !important;
+  width: 46px !important;
+  height: 34px !important;
+}
+.header-brand { width: 64px !important; }
+
+/* the gallery's sentence between the pictures stays empty: only the pictures */
+[data-lead-ink] > * { visibility: hidden; }
+
+/* the staircase's sentence waits for the staircase: it comes in only when the page stands at its step (wy.js) */
+article.story-frame[data-frame="outro"] .story-conclusion { transition: opacity .4s ease; }
+html:not(.wy-road) article.story-frame[data-frame="outro"] .story-conclusion { opacity: 0 !important; }
+html.wy-road article.story-frame[data-frame="outro"] .story-conclusion { transition: opacity 1.4s cubic-bezier(.22, 1, .36, 1) .15s; }
+
+/* the vote for women around the world, one year and place on each step of the staircase (placed by wy.js): Wyoming
+   first, then the steps above it one after the other */
+.wy-world { position: fixed; inset: 0; z-index: 5; pointer-events: none; }
+.wy-step {
+  position: absolute; margin: 0; white-space: nowrap; transform: translate3d(.6em, -50%, 0); opacity: 0;
+  font-family: "Overused Grotesk", "Overused Grotesk Fallback", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500; line-height: 1; letter-spacing: -.02em; color: rgb(255 255 255 / .62);
+  transition: opacity .25s ease, transform .25s ease;
+}
+.wy-step b {
+  font-family: "SYBIOSME Numerals Copy", "Overused Grotesk", "Overused Grotesk Fallback", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500; color: #fff; font-variant-numeric: tabular-nums; margin-right: .25em;
+}
+.wy-step.wy-first, .wy-step.wy-first b, .wy-step.wy-mark, .wy-step.wy-mark b { color: var(--color-brand-orange, #ff5a1f); }
+.wy-world.on .wy-step {
+  opacity: 1; transform: translate3d(0, -50%, 0);
+  transition: opacity .7s ease calc(.9s + var(--i) * .16s), transform 1s cubic-bezier(.22, 1, .36, 1) calc(.9s + var(--i) * .16s);
+}
+.wy-world.on .wy-step.wy-first { transition-delay: .1s, .1s; }

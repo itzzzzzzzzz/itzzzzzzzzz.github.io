@@ -1,0 +1,13 @@
+Pictures in the gallery (tools/make_gallery.py), in the order they come. All public domain.
+What to say about each one: wy/notes.md.
+
+1  The Tetons and the Snake River, Ansel Adams, 1942 · National Archives
+2  Old Faithful in eruption, Yellowstone, William Henry Jackson, 1872 · National Archives (NARA 516797)
+3  "Buffalo at roadside near Yellowstone Lake", May 9, 1940 · National Archives (NARA 292845)
+4  Devils Tower, N. H. Darton, 1900 · U.S. Geological Survey
+5  "Jones on Silver City (bucking bronco), Cheyenne Frontier Days", around 1910 · Library of Congress (LCCN 2004674922)
+
+The last card: the bison with the state seal, the user's own file (wy/bison-seal-original.webp).
+The years on the staircase (when women won the vote): Wyoming State Archives, and the national histories of each country.
+Everything else on the page (layout, fonts, the 3D gallery, the dial and the staircase, the tick sound) is from www.sybiosme.com,
+mirrored for this school presentation only.

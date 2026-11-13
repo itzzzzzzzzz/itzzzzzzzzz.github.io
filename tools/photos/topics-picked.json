@@ -1,0 +1,68 @@
+{
+ "polls": {
+  "title": "File:Woman suffrage in Wyoming Territory. - Scene at the polls in Cheyenne - from a photo. by Kirkland. LCCN92516129.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Woman_suffrage_in_Wyoming_Territory._-_Scene_at_the_polls_in_Cheyenne_-_from_a_photo._by_Kirkland._LCCN92516129.jpg",
+  "license": "Public domain",
+  "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "date": "1888",
+  "size": [
+   3276,
+   4096
+  ]
+ },
+ "faithful": {
+  "title": "File:Old Faithful in eruption, Yellowstone - NARA - 516797.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_Faithful_in_eruption,_Yellowstone_-_NARA_-_516797.jpg",
+  "license": "Public domain",
+  "artist": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:William_Henry_Jackson\" class=\"extiw\" title=\"w:en:William Henry Jackson\"><",
+  "date": "1872<div style=\"display: none;\">date QS:P571,+1872-00-00T00:",
+  "size": [
+   2324,
+   3000
+  ]
+ },
+ "tower": {
+  "title": "File:Devils Tower Darton 1900.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Devils_Tower_Darton_1900.jpg",
+  "license": "Public domain",
+  "artist": "Nathaniel H. Darton",
+  "date": "1900",
+  "size": [
+   1021,
+   1400
+  ]
+ },
+ "bison-lake": {
+  "title": "File:\"Buffalo at roadside near Yellowstone Lake.\" - NARA - 292845.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%22Buffalo_at_roadside_near_Yellowstone_Lake.%22_-_NARA_-_292845.jpg",
+  "license": "Public domain",
+  "artist": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span> or not provided</div>",
+  "date": "9 May 1940<div style=\"display: none;\">date QS:P571,+1940-05-",
+  "size": [
+   3000,
+   1776
+  ]
+ },
+ "bison-herd": {
+  "title": "File:Old Monarchs of the Plains. (5472508768).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_Monarchs_of_the_Plains._(5472508768).jpg",
+  "license": "No restrictions",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/41131493@N06\">SMU Central University Librari",
+  "date": "1907-01-01 00:00:00",
+  "size": [
+   3000,
+   2285
+  ]
+ },
+ "bronc": {
+  "title": "File:Jones on Silver City (bucking bronco), Cheyenne Frontier Days LCCN2004674922.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jones_on_Silver_City_(bucking_bronco),_Cheyenne_Frontier_Days_LCCN2004674922.jpg",
+  "license": "Public domain",
+  "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "date": "1910",
+  "size": [
+   1536,
+   1217
+  ]
+ }
+}
