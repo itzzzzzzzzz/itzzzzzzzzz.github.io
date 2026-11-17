@@ -44,9 +44,10 @@
     const p = top('section.story-process', y);
     if (p != null) for (const f of [0.52, 1.172, 1.838, 2.487]) out.push(p + f * h);
     // the staircase, once the dial has become it: the dial's last turn at the pace of the turns before it, then slower and
-    // slower while the staircase forms (the countries and the sentence come in when it stands still)
+    // slower while the staircase forms (the countries and the sentence come in when it stands still); pace 0.8 (it was
+    // 0.55): about 3 s from 1890 to the staircase instead of about 4.2 s
     const r = top('section.story-road', y);
-    if (r != null) out.push({ y: r + 0.42 * h, pace: 0.55, road: true, ease: intoRoad });
+    if (r != null) out.push({ y: r + 0.42 * h, pace: 0.8, road: true, ease: intoRoad });
     // the gallery: every picture in front, then the last card
     const g = top('[data-gallery-runway]', y);
     if (g != null) {

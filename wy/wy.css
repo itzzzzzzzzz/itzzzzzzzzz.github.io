@@ -24,7 +24,7 @@ html, body, * { cursor: none !important; }
 /* the staircase's sentence waits for the staircase: it comes in only when the page stands at its step (wy.js) */
 article.story-frame[data-frame="outro"] .story-conclusion { transition: opacity .4s ease; }
 html:not(.wy-road) article.story-frame[data-frame="outro"] .story-conclusion { opacity: 0 !important; }
-html.wy-road article.story-frame[data-frame="outro"] .story-conclusion { transition: opacity 1.4s cubic-bezier(.22, 1, .36, 1) .15s; }
+html.wy-road article.story-frame[data-frame="outro"] .story-conclusion { transition: opacity 1s cubic-bezier(.22, 1, .36, 1) .1s; }
 
 /* the vote for women around the world, one year and place on each step of the staircase (placed by wy.js): Wyoming
    first, then the steps above it one after the other */
@@ -42,6 +42,6 @@ html.wy-road article.story-frame[data-frame="outro"] .story-conclusion { transit
 .wy-step.wy-first, .wy-step.wy-first b, .wy-step.wy-mark, .wy-step.wy-mark b { color: var(--color-brand-orange, #ff5a1f); }
 .wy-world.on .wy-step {
   opacity: 1; transform: translate3d(0, -50%, 0);
-  transition: opacity .7s ease calc(.9s + var(--i) * .16s), transform 1s cubic-bezier(.22, 1, .36, 1) calc(.9s + var(--i) * .16s);
+  transition: opacity .5s ease calc(.6s + var(--i) * .11s), transform .7s cubic-bezier(.22, 1, .36, 1) calc(.6s + var(--i) * .11s);
 }
 .wy-world.on .wy-step.wy-first { transition-delay: .1s, .1s; }
